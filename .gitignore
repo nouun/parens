@@ -1,0 +1,5 @@
+.clj-kondo/
+colorschemes/
+.lsp/
+.dir_hash
+.cache
