@@ -6,8 +6,8 @@
   (fn [] 
     (awful.layout.append_default_layouts
       (let [l awful.layout.suit]
-        [l.floating
-         l.tile
+        [l.tile
+         l.floating
          l.spiral.dwindle]))))
 
 (screen.connect_signal "request::wallpaper"

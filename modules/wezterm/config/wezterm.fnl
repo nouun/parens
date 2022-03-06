@@ -10,5 +10,6 @@
 
 (merge (require :options.binds)
        (require :options.colors)
-       (require :options.theme))
+       (require :options.theme)
+       {})
 

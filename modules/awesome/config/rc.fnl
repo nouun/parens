@@ -1,6 +1,3 @@
-
-
-
 (pcall require :luarocks.loader)
 (require :awful.autofocus)
 
@@ -19,6 +16,10 @@
       gears     (require :gears)]
   (beautiful.init
     (.. (gears.filesystem.get_configuration_dir) "misc/theme.lua")))
+
+  ; Load wallpaper on all screens
+  ;(for [idx 1 (screen.count) 1]))
+  ;  (gears.wallpaper.maximised beautiful.wallpapers idx true)))
 
 ;; Misc
 (require :misc)

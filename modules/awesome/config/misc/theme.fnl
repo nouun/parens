@@ -4,7 +4,12 @@
 (let [gears (require :gears)
       config_dir (gears.filesystem.get_configuration_dir)
       theme_dir (.. config_dir "misc/theme/")]
-  {:font     "Comic Code Ligatures 10"
+  {:wallpaper "~/bg.png"
+
+   :useless_gap       25
+   :gap_single_client true
+   
+   :font     "Comic Code Ligatures 10"
    :font-med "Comic Code Ligatures 12"
 
    :bg-normal :#F5E9DA

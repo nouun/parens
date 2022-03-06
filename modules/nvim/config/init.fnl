@@ -1,7 +1,3 @@
-
-
-
-
 (let [vfn vim.fn
       execute vim.api.nvim_command
       path (string.format "%s/site/pack/packer/start/packer.nvim" (vfn.stdpath :data))]
